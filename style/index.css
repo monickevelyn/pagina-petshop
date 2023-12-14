@@ -1,0 +1,105 @@
+@import url("/style/dark.css");
+@import url("/style/main.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --bgdark: #1e1e1e;
+    --bglight: rgb(249, 243, 243);
+    --verdeclaro: rgb(157, 228, 171);
+    --verdehover: rgb(143, 201, 155);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#corpo {
+    width: 100vw;
+    max-width: 1444px;
+    background-color: var(--bglight);
+    color: black;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 2px solid var(--verdeclaro);
+    min-height: 40px;
+    padding: 5px;
+}
+
+.logo{
+    color: var(--verdehover);
+    font-size: 30px;
+    font-weight: 10;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: default;
+}
+
+.div-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    column-gap: 30px;
+    align-items: center;
+}
+
+.btn-contato {
+    border: none;
+    outline: 0;
+    background: 0;
+    cursor: pointer;
+    color: black;
+    font-weight: 80;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    background-color:  var(--verdeclaro);
+}
+
+.btn-contato:hover, .estrela:hover {
+    background-color:  var(--verdehover);
+}
+
+#footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 8px;
+    border-top: 2px solid var(--verdeclaro);
+    min-height: 100px;
+    padding: 10px;
+}
+
+#footer a {
+    color: black;
+    cursor: pointer;
+}
+
+#footer .div-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.div-footer-icones{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 5px;
+}

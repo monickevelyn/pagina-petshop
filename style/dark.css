@@ -1,0 +1,29 @@
+.estrela {
+    width: 25px;
+    background-color: rgb(157, 228, 171);
+    border-radius: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.light {
+    display: none;
+}
+
+#modo-icon{
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.dark#corpo{
+    background-color: var(--bgdark);
+    color: rgb(246, 244, 244);
+}
+
+.dark#corpo a{
+    color: rgb(246, 244, 244);
+}
+
+.dark#corpo #secao2 div, .dark#corpo .btn-contato:hover, .dark#corpo .btn-contato {
+    color: black;
+}
